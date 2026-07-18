@@ -1,0 +1,30 @@
+# --- Aurelis: user data (never commit) ---
+database/*.db
+database/*.db-journal
+config/settings.json
+cache/thumbnails/*
+!cache/thumbnails/.gitkeep
+
+# In case a music folder ever ends up inside the project directory
+music/
+*.mp3
+*.flac
+*.wav
+*.ogg
+*.m4a
+*.aac
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
